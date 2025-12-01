@@ -1,0 +1,23 @@
+C:\Users\david\Programação\C#\DEV TRAIL .NET\PROJETO FINAL\BarelyBank\BarelyBank.Domain\bin\Debug\net8.0\BarelyBank.Domain.deps.json
+C:\Users\david\Programação\C#\DEV TRAIL .NET\PROJETO FINAL\BarelyBank\BarelyBank.Domain\bin\Debug\net8.0\BarelyBank.Domain.dll
+C:\Users\david\Programação\C#\DEV TRAIL .NET\PROJETO FINAL\BarelyBank\BarelyBank.Domain\bin\Debug\net8.0\BarelyBank.Domain.pdb
+C:\Users\david\Programação\C#\DEV TRAIL .NET\PROJETO FINAL\BarelyBank\BarelyBank.Domain\obj\Debug\net8.0\BarelyBank.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david\Programação\C#\DEV TRAIL .NET\PROJETO FINAL\BarelyBank\BarelyBank.Domain\obj\Debug\net8.0\BarelyBank.Domain.AssemblyInfoInputs.cache
+C:\Users\david\Programação\C#\DEV TRAIL .NET\PROJETO FINAL\BarelyBank\BarelyBank.Domain\obj\Debug\net8.0\BarelyBank.Domain.AssemblyInfo.cs
+C:\Users\david\Programação\C#\DEV TRAIL .NET\PROJETO FINAL\BarelyBank\BarelyBank.Domain\obj\Debug\net8.0\BarelyBank.Domain.csproj.CoreCompileInputs.cache
+C:\Users\david\Programação\C#\DEV TRAIL .NET\PROJETO FINAL\BarelyBank\BarelyBank.Domain\obj\Debug\net8.0\BarelyBank.Domain.dll
+C:\Users\david\Programação\C#\DEV TRAIL .NET\PROJETO FINAL\BarelyBank\BarelyBank.Domain\obj\Debug\net8.0\refint\BarelyBank.Domain.dll
+C:\Users\david\Programação\C#\DEV TRAIL .NET\PROJETO FINAL\BarelyBank\BarelyBank.Domain\obj\Debug\net8.0\BarelyBank.Domain.pdb
+C:\Users\david\Programação\C#\DEV TRAIL .NET\PROJETO FINAL\BarelyBank\BarelyBank.Domain\obj\Debug\net8.0\ref\BarelyBank.Domain.dll
+C:\Users\david\Github\BarelyBank\BarelyBank\BarelyBank.Domain\bin\Debug\net8.0\BarelyBank.Domain.deps.json
+C:\Users\david\Github\BarelyBank\BarelyBank\BarelyBank.Domain\bin\Debug\net8.0\BarelyBank.Domain.dll
+C:\Users\david\Github\BarelyBank\BarelyBank\BarelyBank.Domain\bin\Debug\net8.0\BarelyBank.Domain.pdb
+C:\Users\david\Github\BarelyBank\BarelyBank\BarelyBank.Domain\obj\Debug\net8.0\BarelyBank.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david\Github\BarelyBank\BarelyBank\BarelyBank.Domain\obj\Debug\net8.0\BarelyBank.Domain.AssemblyInfoInputs.cache
+C:\Users\david\Github\BarelyBank\BarelyBank\BarelyBank.Domain\obj\Debug\net8.0\BarelyBank.Domain.AssemblyInfo.cs
+C:\Users\david\Github\BarelyBank\BarelyBank\BarelyBank.Domain\obj\Debug\net8.0\BarelyBank.Domain.csproj.CoreCompileInputs.cache
+C:\Users\david\Github\BarelyBank\BarelyBank\BarelyBank.Domain\obj\Debug\net8.0\BarelyBank.Domain.sourcelink.json
+C:\Users\david\Github\BarelyBank\BarelyBank\BarelyBank.Domain\obj\Debug\net8.0\BarelyBank.Domain.dll
+C:\Users\david\Github\BarelyBank\BarelyBank\BarelyBank.Domain\obj\Debug\net8.0\refint\BarelyBank.Domain.dll
+C:\Users\david\Github\BarelyBank\BarelyBank\BarelyBank.Domain\obj\Debug\net8.0\BarelyBank.Domain.pdb
+C:\Users\david\Github\BarelyBank\BarelyBank\BarelyBank.Domain\obj\Debug\net8.0\ref\BarelyBank.Domain.dll

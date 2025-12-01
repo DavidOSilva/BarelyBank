@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36623.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarelyBank.Api", "BarelyBank\BarelyBank.Api.csproj", "{8CBE4C33-396A-4CA7-867F-1341A1AD1D68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarelyBank.Infra", "BarelyBank.Infra\BarelyBank.Infra.csproj", "{B1299856-5A90-40F1-B7A7-66870E6311D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarelyBank.Application", "BarelyBank.Application\BarelyBank.Application.csproj", "{B2A3665A-E5CD-4E56-B5F7-BD72B19ECBEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarelyBank.Domain", "BarelyBank.Domain\BarelyBank.Domain.csproj", "{EC2A60E9-D889-4413-B9FD-5377EDB43DBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarelyBank.UnitTests", "BarelyBank.UnitTests\BarelyBank.UnitTests.csproj", "{2940AC18-8C98-4B90-B015-5BFC414A2D19}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EC2A60E9-D889-4413-B9FD-5377EDB43DBF} = {EC2A60E9-D889-4413-B9FD-5377EDB43DBF}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CBE4C33-396A-4CA7-867F-1341A1AD1D68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CBE4C33-396A-4CA7-867F-1341A1AD1D68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CBE4C33-396A-4CA7-867F-1341A1AD1D68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CBE4C33-396A-4CA7-867F-1341A1AD1D68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1299856-5A90-40F1-B7A7-66870E6311D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1299856-5A90-40F1-B7A7-66870E6311D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1299856-5A90-40F1-B7A7-66870E6311D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1299856-5A90-40F1-B7A7-66870E6311D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2A3665A-E5CD-4E56-B5F7-BD72B19ECBEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2A3665A-E5CD-4E56-B5F7-BD72B19ECBEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2A3665A-E5CD-4E56-B5F7-BD72B19ECBEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2A3665A-E5CD-4E56-B5F7-BD72B19ECBEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC2A60E9-D889-4413-B9FD-5377EDB43DBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC2A60E9-D889-4413-B9FD-5377EDB43DBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC2A60E9-D889-4413-B9FD-5377EDB43DBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC2A60E9-D889-4413-B9FD-5377EDB43DBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2940AC18-8C98-4B90-B015-5BFC414A2D19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2940AC18-8C98-4B90-B015-5BFC414A2D19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2940AC18-8C98-4B90-B015-5BFC414A2D19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2940AC18-8C98-4B90-B015-5BFC414A2D19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B5119D4B-D250-4FC6-A7CB-02FD17F0C1F5}
+	EndGlobalSection
+EndGlobal

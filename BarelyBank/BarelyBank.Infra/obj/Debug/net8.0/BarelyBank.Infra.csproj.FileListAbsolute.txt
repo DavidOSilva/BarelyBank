@@ -1,0 +1,35 @@
+C:\Users\david\Programação\C#\DEV TRAIL .NET\PROJETO FINAL\BarelyBank\BarelyBank.Infra\bin\Debug\net8.0\BarelyBank.Infra.deps.json
+C:\Users\david\Programação\C#\DEV TRAIL .NET\PROJETO FINAL\BarelyBank\BarelyBank.Infra\bin\Debug\net8.0\BarelyBank.Infra.runtimeconfig.json
+C:\Users\david\Programação\C#\DEV TRAIL .NET\PROJETO FINAL\BarelyBank\BarelyBank.Infra\bin\Debug\net8.0\BarelyBank.Infra.dll
+C:\Users\david\Programação\C#\DEV TRAIL .NET\PROJETO FINAL\BarelyBank\BarelyBank.Infra\bin\Debug\net8.0\BarelyBank.Infra.pdb
+C:\Users\david\Programação\C#\DEV TRAIL .NET\PROJETO FINAL\BarelyBank\BarelyBank.Infra\bin\Debug\net8.0\BarelyBank.Domain.dll
+C:\Users\david\Programação\C#\DEV TRAIL .NET\PROJETO FINAL\BarelyBank\BarelyBank.Infra\bin\Debug\net8.0\BarelyBank.Domain.pdb
+C:\Users\david\Programação\C#\DEV TRAIL .NET\PROJETO FINAL\BarelyBank\BarelyBank.Infra\obj\Debug\net8.0\BarelyBank.Infra.csproj.AssemblyReference.cache
+C:\Users\david\Programação\C#\DEV TRAIL .NET\PROJETO FINAL\BarelyBank\BarelyBank.Infra\obj\Debug\net8.0\BarelyBank.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david\Programação\C#\DEV TRAIL .NET\PROJETO FINAL\BarelyBank\BarelyBank.Infra\obj\Debug\net8.0\BarelyBank.Infra.AssemblyInfoInputs.cache
+C:\Users\david\Programação\C#\DEV TRAIL .NET\PROJETO FINAL\BarelyBank\BarelyBank.Infra\obj\Debug\net8.0\BarelyBank.Infra.AssemblyInfo.cs
+C:\Users\david\Programação\C#\DEV TRAIL .NET\PROJETO FINAL\BarelyBank\BarelyBank.Infra\obj\Debug\net8.0\BarelyBank.Infra.csproj.CoreCompileInputs.cache
+C:\Users\david\Programação\C#\DEV TRAIL .NET\PROJETO FINAL\BarelyBank\BarelyBank.Infra\obj\Debug\net8.0\BarelyBa.7D0AC7C4.Up2Date
+C:\Users\david\Programação\C#\DEV TRAIL .NET\PROJETO FINAL\BarelyBank\BarelyBank.Infra\obj\Debug\net8.0\BarelyBank.Infra.dll
+C:\Users\david\Programação\C#\DEV TRAIL .NET\PROJETO FINAL\BarelyBank\BarelyBank.Infra\obj\Debug\net8.0\refint\BarelyBank.Infra.dll
+C:\Users\david\Programação\C#\DEV TRAIL .NET\PROJETO FINAL\BarelyBank\BarelyBank.Infra\obj\Debug\net8.0\BarelyBank.Infra.pdb
+C:\Users\david\Programação\C#\DEV TRAIL .NET\PROJETO FINAL\BarelyBank\BarelyBank.Infra\obj\Debug\net8.0\BarelyBank.Infra.genruntimeconfig.cache
+C:\Users\david\Programação\C#\DEV TRAIL .NET\PROJETO FINAL\BarelyBank\BarelyBank.Infra\obj\Debug\net8.0\ref\BarelyBank.Infra.dll
+C:\Users\david\Github\BarelyBank\BarelyBank\BarelyBank.Infra\bin\Debug\net8.0\BarelyBank.Infra.deps.json
+C:\Users\david\Github\BarelyBank\BarelyBank\BarelyBank.Infra\bin\Debug\net8.0\BarelyBank.Infra.runtimeconfig.json
+C:\Users\david\Github\BarelyBank\BarelyBank\BarelyBank.Infra\bin\Debug\net8.0\BarelyBank.Infra.dll
+C:\Users\david\Github\BarelyBank\BarelyBank\BarelyBank.Infra\bin\Debug\net8.0\BarelyBank.Infra.pdb
+C:\Users\david\Github\BarelyBank\BarelyBank\BarelyBank.Infra\bin\Debug\net8.0\BarelyBank.Domain.dll
+C:\Users\david\Github\BarelyBank\BarelyBank\BarelyBank.Infra\bin\Debug\net8.0\BarelyBank.Domain.pdb
+C:\Users\david\Github\BarelyBank\BarelyBank\BarelyBank.Infra\obj\Debug\net8.0\BarelyBank.Infra.csproj.AssemblyReference.cache
+C:\Users\david\Github\BarelyBank\BarelyBank\BarelyBank.Infra\obj\Debug\net8.0\BarelyBank.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david\Github\BarelyBank\BarelyBank\BarelyBank.Infra\obj\Debug\net8.0\BarelyBank.Infra.AssemblyInfoInputs.cache
+C:\Users\david\Github\BarelyBank\BarelyBank\BarelyBank.Infra\obj\Debug\net8.0\BarelyBank.Infra.AssemblyInfo.cs
+C:\Users\david\Github\BarelyBank\BarelyBank\BarelyBank.Infra\obj\Debug\net8.0\BarelyBank.Infra.csproj.CoreCompileInputs.cache
+C:\Users\david\Github\BarelyBank\BarelyBank\BarelyBank.Infra\obj\Debug\net8.0\BarelyBank.Infra.sourcelink.json
+C:\Users\david\Github\BarelyBank\BarelyBank\BarelyBank.Infra\obj\Debug\net8.0\BarelyBa.7D0AC7C4.Up2Date
+C:\Users\david\Github\BarelyBank\BarelyBank\BarelyBank.Infra\obj\Debug\net8.0\BarelyBank.Infra.dll
+C:\Users\david\Github\BarelyBank\BarelyBank\BarelyBank.Infra\obj\Debug\net8.0\refint\BarelyBank.Infra.dll
+C:\Users\david\Github\BarelyBank\BarelyBank\BarelyBank.Infra\obj\Debug\net8.0\BarelyBank.Infra.pdb
+C:\Users\david\Github\BarelyBank\BarelyBank\BarelyBank.Infra\obj\Debug\net8.0\BarelyBank.Infra.genruntimeconfig.cache
+C:\Users\david\Github\BarelyBank\BarelyBank\BarelyBank.Infra\obj\Debug\net8.0\ref\BarelyBank.Infra.dll

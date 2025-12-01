@@ -1,0 +1,35 @@
+C:\Users\david\Programação\C#\DEV TRAIL .NET\PROJETO FINAL\BarelyBank\BarelyBank.Application\bin\Debug\net8.0\BarelyBank.Application.deps.json
+C:\Users\david\Programação\C#\DEV TRAIL .NET\PROJETO FINAL\BarelyBank\BarelyBank.Application\bin\Debug\net8.0\BarelyBank.Application.dll
+C:\Users\david\Programação\C#\DEV TRAIL .NET\PROJETO FINAL\BarelyBank\BarelyBank.Application\bin\Debug\net8.0\BarelyBank.Application.pdb
+C:\Users\david\Programação\C#\DEV TRAIL .NET\PROJETO FINAL\BarelyBank\BarelyBank.Application\bin\Debug\net8.0\BarelyBank.Domain.dll
+C:\Users\david\Programação\C#\DEV TRAIL .NET\PROJETO FINAL\BarelyBank\BarelyBank.Application\bin\Debug\net8.0\BarelyBank.Infra.dll
+C:\Users\david\Programação\C#\DEV TRAIL .NET\PROJETO FINAL\BarelyBank\BarelyBank.Application\bin\Debug\net8.0\BarelyBank.Domain.pdb
+C:\Users\david\Programação\C#\DEV TRAIL .NET\PROJETO FINAL\BarelyBank\BarelyBank.Application\bin\Debug\net8.0\BarelyBank.Infra.pdb
+C:\Users\david\Programação\C#\DEV TRAIL .NET\PROJETO FINAL\BarelyBank\BarelyBank.Application\obj\Debug\net8.0\BarelyBank.Application.csproj.AssemblyReference.cache
+C:\Users\david\Programação\C#\DEV TRAIL .NET\PROJETO FINAL\BarelyBank\BarelyBank.Application\obj\Debug\net8.0\BarelyBank.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david\Programação\C#\DEV TRAIL .NET\PROJETO FINAL\BarelyBank\BarelyBank.Application\obj\Debug\net8.0\BarelyBank.Application.AssemblyInfoInputs.cache
+C:\Users\david\Programação\C#\DEV TRAIL .NET\PROJETO FINAL\BarelyBank\BarelyBank.Application\obj\Debug\net8.0\BarelyBank.Application.AssemblyInfo.cs
+C:\Users\david\Programação\C#\DEV TRAIL .NET\PROJETO FINAL\BarelyBank\BarelyBank.Application\obj\Debug\net8.0\BarelyBank.Application.csproj.CoreCompileInputs.cache
+C:\Users\david\Programação\C#\DEV TRAIL .NET\PROJETO FINAL\BarelyBank\BarelyBank.Application\obj\Debug\net8.0\BarelyBa.E7BC8060.Up2Date
+C:\Users\david\Programação\C#\DEV TRAIL .NET\PROJETO FINAL\BarelyBank\BarelyBank.Application\obj\Debug\net8.0\BarelyBank.Application.dll
+C:\Users\david\Programação\C#\DEV TRAIL .NET\PROJETO FINAL\BarelyBank\BarelyBank.Application\obj\Debug\net8.0\refint\BarelyBank.Application.dll
+C:\Users\david\Programação\C#\DEV TRAIL .NET\PROJETO FINAL\BarelyBank\BarelyBank.Application\obj\Debug\net8.0\BarelyBank.Application.pdb
+C:\Users\david\Programação\C#\DEV TRAIL .NET\PROJETO FINAL\BarelyBank\BarelyBank.Application\obj\Debug\net8.0\ref\BarelyBank.Application.dll
+C:\Users\david\Github\BarelyBank\BarelyBank\BarelyBank.Application\bin\Debug\net8.0\BarelyBank.Application.deps.json
+C:\Users\david\Github\BarelyBank\BarelyBank\BarelyBank.Application\bin\Debug\net8.0\BarelyBank.Application.dll
+C:\Users\david\Github\BarelyBank\BarelyBank\BarelyBank.Application\bin\Debug\net8.0\BarelyBank.Application.pdb
+C:\Users\david\Github\BarelyBank\BarelyBank\BarelyBank.Application\bin\Debug\net8.0\BarelyBank.Domain.dll
+C:\Users\david\Github\BarelyBank\BarelyBank\BarelyBank.Application\bin\Debug\net8.0\BarelyBank.Infra.dll
+C:\Users\david\Github\BarelyBank\BarelyBank\BarelyBank.Application\bin\Debug\net8.0\BarelyBank.Domain.pdb
+C:\Users\david\Github\BarelyBank\BarelyBank\BarelyBank.Application\bin\Debug\net8.0\BarelyBank.Infra.pdb
+C:\Users\david\Github\BarelyBank\BarelyBank\BarelyBank.Application\obj\Debug\net8.0\BarelyBank.Application.csproj.AssemblyReference.cache
+C:\Users\david\Github\BarelyBank\BarelyBank\BarelyBank.Application\obj\Debug\net8.0\BarelyBank.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david\Github\BarelyBank\BarelyBank\BarelyBank.Application\obj\Debug\net8.0\BarelyBank.Application.AssemblyInfoInputs.cache
+C:\Users\david\Github\BarelyBank\BarelyBank\BarelyBank.Application\obj\Debug\net8.0\BarelyBank.Application.AssemblyInfo.cs
+C:\Users\david\Github\BarelyBank\BarelyBank\BarelyBank.Application\obj\Debug\net8.0\BarelyBank.Application.csproj.CoreCompileInputs.cache
+C:\Users\david\Github\BarelyBank\BarelyBank\BarelyBank.Application\obj\Debug\net8.0\BarelyBank.Application.sourcelink.json
+C:\Users\david\Github\BarelyBank\BarelyBank\BarelyBank.Application\obj\Debug\net8.0\BarelyBa.E7BC8060.Up2Date
+C:\Users\david\Github\BarelyBank\BarelyBank\BarelyBank.Application\obj\Debug\net8.0\BarelyBank.Application.dll
+C:\Users\david\Github\BarelyBank\BarelyBank\BarelyBank.Application\obj\Debug\net8.0\refint\BarelyBank.Application.dll
+C:\Users\david\Github\BarelyBank\BarelyBank\BarelyBank.Application\obj\Debug\net8.0\BarelyBank.Application.pdb
+C:\Users\david\Github\BarelyBank\BarelyBank\BarelyBank.Application\obj\Debug\net8.0\ref\BarelyBank.Application.dll
