@@ -28,33 +28,33 @@ Desenvolver um sistema de simulação de banco digital que gerencia clientes e s
 ## 🖼️ Imagens e Figuras
 
 <div align="center">
-  <img src="Assets/criando-cliente.gif" alt="Criando cliente" style="height:300px; width:auto;" />
+  <img src="Assets/criando-cliente.gif" alt="Criando cliente" style="height:auto; width:auto;" />
   <p><em>Legenda: Fluxo de criação de cliente.</em></p>
 </div>
 
 <div align="center">
-  <img src="Assets/criando-conta.gif" alt="Criando conta" style="height:300px; width:auto;" />
+  <img src="Assets/criando-conta.gif" alt="Criando conta" style="height:auto; width:auto;" />
   <p><em>Legenda: Processo de abertura de conta vinculada a um cliente.</em></p>
 </div>
 
 <div align="center">
-  <img src="Assets/deposito-saque.gif" alt="Depósito e saque" style="height:300px; width:auto;" />
+  <img src="Assets/deposito-saque.gif" alt="Depósito e saque" style="height:auto; width:auto;" />
   <p><em>Legenda: Exemplo de depósito e saque em conta.</em></p>
 </div>
 
 <div align="center">
-  <img src="Assets/transferencia.gif" alt="Transferência" style="height:300px; width:auto;" />
+  <img src="Assets/transferencia.gif" alt="Transferência" style="height:auto; width:auto;" />
   <p><em>Legenda: Transferência entre contas (fluxo atômico).</em></p>
 </div>
 
 <div align="center">
-  <img src="Assets/rotas-protegidas.gif" alt="Rotas protegidas" style="height:300px; width:auto;" />
+  <img src="Assets/rotas-protegidas.gif" alt="Rotas protegidas" style="height:auto; width:auto;" />
   <p><em>Legenda: Acesso a endpoints protegidos com JWT.</em></p>
 </div>
 
 <div align="center">
-  <img src="Assets/SP-STUDIO%20SOUTH%20PARK%20-%20DIN%C3%82MICA%20EM%20GRUPO%20-%20DAVID%20OLIVEIRA%20SILVA.png" alt="Dinâmica em grupo" width="600" />
-  <p><em>Legenda: Foto da dinâmica em grupo com South Park.</em></p>
+  <img src="Assets/dinamica-southpark.png" alt="Dinâmica em grupo" width="auto" />
+  <p><em>Legenda: Foto da dinâmica em grupo no estilo South Park.</em></p>
 </div>
 
 ## 🧩 Particularidades
@@ -73,7 +73,7 @@ Este projeto incorpora vários padrões de projeto e boas práticas para garanti
 
 - **Testes Unitários**: Cobrem as camadas Application (ex.: `AccountServiceTest`, `ClientServiceTest` etc. ) e Domain (ex.: `AccountTest`, `AccountFactoryTest`, `PasswordValidatorTest`). Os testes de Application isolam serviços com Moq e validam fluxos de sucesso e falha (criação via factories, depósitos/saques que criam Transaction, transferências atômicas), confirmam interações com repositórios e que `CompleteAsync()` só é chamado em sucesso, enquanto os testes de Domain verificam invariantes de negócio (deposit/withdraw, fees, criação correta de contas e validação de senhas).
 
-- **Repositórios genéricos e específicos**: A camada de infraestrutura utiliza um repositório base genérico `EntityRepository<T>`, que centraliza operações CRUD reutilizáveis (Add, Update, Delete, Get, GetAll) via `BBContext` e `Context.Set<T>()`. Isso evita duplicação de código e garante consistência ao definir contratos por meio de `IEntityRepository<T>` e suas especializações, como `IAccountRepository`. Para entidades imutáveis como `Transaction`, métodos genéricos como Update ou Delete são desnecessários, justificando a implementação de `TransactionRepository` de forma dedicada e customizada.
+- **Repositórios genéricos e específicos**: A camada de infraestrutura utiliza um repositório base genérico `EntityRepository<T>`, que centraliza operações CRUD reutilizáveis (Add, Update, Delete, Get, GetAll) via `BBContext` e `Context.Set<T>()`. Isso evita duplicação de código e garante consistência ao definir contratos por meio de `IEntityRepository<T>` e suas especializações, como `IAccountRepository`. Para entidades imutáveis como `Transaction`, métodos genéricos como Update ou Delete são desnecessários, justificando a implementação de `TransactionRepository` independente.
 
 ## 🗄️ Configuração do Banco de Dados
 
