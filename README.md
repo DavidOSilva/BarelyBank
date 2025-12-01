@@ -46,6 +46,10 @@ Este projeto incorpora vários padrões de projeto e boas práticas para garanti
 
 - **Autenticação com JWT**: Endpoints selecionados são protegidos para ilustrar conceitos de autenticação. Basicamente toda a ClientController exige autenticação para funcionar apropriadamente. Os clientes devem se registrar e depois fazer login para obter um JWT. Este token deve ser incluído no cabeçalho de autorização para acessar recursos protegidos. Evidentemente, as senhas são armazenadas de forma segura usando um algoritmo de hash. Diferentemente da criptografia, uma senha hasheada não pode ser revertida para seu valor original; além disso, utiliza-se normalmente um salt (um valor aleatório adicionado à senha antes do hash) para impedir ataques com tabelas pré-computadas e garantir que senhas iguais gerem hashes distintos.
 
+- **Testes Unitários**: Cobrem as camadas Application (ex.: `AccountServiceTest`, `ClientServiceTest` etc. ) e Domain (ex.: `AccountTest`, `AccountFactoryTest`, `PasswordValidatorTest`). Os testes de Application isolam serviços com Moq e validam fluxos de sucesso e falha (criação via factories, depósitos/saques que criam Transaction, transferências atômicas), confirmam interações com repositórios e que `CompleteAsync()` só é chamado em sucesso, enquanto os testes de Domain verificam invariantes de negócio (deposit/withdraw, fees, criação correta de contas e validação de senhas).
+
+- **Repositórios genéricos e específicos**: A camada de infra usa um repositório base genérico `EntityRepository<T>` que encapsula operações CRUD reutilizáveis (Add/Update/Delete/Get/GetAll) via `BBContext` e `Context.Set<T>()`, expondo contratos por meio de `IEntityRepository<T>` e especializações como `IAccountRepository`. O `AccountRepository` amplia o comportamento com consultas específicas (eager loading do holder, busca por clientId e cálculo do último número de conta), mantendo o acesso a dados centralizado, facilitando mocks nos testes e permitindo otimizações por entidade sem duplicar lógica. Segundo, no domínio bancário, transações são imutáveis: você praticamente só adiciona novas (Add) e lê com filtros — nunca atualiza ou deleta —, o que torna métodos genéricos como Update ou Delete desnecessários para esse caso; isso reforça a decisão de ter repositórios dedicados e simples que expõem apenas o que o negócio precisa.
+
 ## 🗄️ Configuração do Banco de Dados
 
 A aplicação utiliza o **SQL Server** como banco de dados. A maneira recomendada de executá-lo para desenvolvimento local é através de um contêiner Docker.
@@ -73,8 +77,8 @@ A aplicação utiliza o **SQL Server** como banco de dados. A maneira recomendad
 
 1.  **Clonar o Repositório**:
     ```ps1
-    git clone <url-do-seu-repositorio>
-    cd <diretorio-do-projeto>
+    git clone "https://github.com/DavidOSilva/BarelyBank"
+    cd BarelyBank
     ```
 
 2.  **Iniciar o banco de dados (Docker)**
@@ -98,7 +102,8 @@ A aplicação utiliza o **SQL Server** como banco de dados. A maneira recomendad
     Navegue até a pasta do projeto `BarelyBank` e execute:
 
     ```ps1
-    cd BarelyBank; dotnet run
+    cd BarelyBank 
+    dotnet run
     ```
 
     A API será iniciada e você poderá acessar a interface do Swagger em `https://localhost:<porta>/swagger/index.html` para explorar e interagir com os endpoints.
