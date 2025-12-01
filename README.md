@@ -27,25 +27,35 @@ Desenvolver um sistema de simulação de banco digital que gerencia clientes e s
 
 ## 🖼️ Imagens e Figuras
 
-![Criando cliente](Assets/criando-cliente.gif)
-*Legenda:* Fluxo de criação de cliente.
+<div align="center">
+  <img src="Assets/criando-cliente.gif" alt="Criando cliente" style="height:300px; width:auto;" />
+  <p><em>Legenda: Fluxo de criação de cliente.</em></p>
+</div>
 
-![Criando conta](Assets/criando-conta.gif)
-*Legenda:* Processo de abertura de conta vinculada a um cliente.
+<div align="center">
+  <img src="Assets/criando-conta.gif" alt="Criando conta" style="height:300px; width:auto;" />
+  <p><em>Legenda: Processo de abertura de conta vinculada a um cliente.</em></p>
+</div>
 
-![Depósito e saque](Assets/deposito-saque.gif)
-*Legenda:* Exemplo de depósito e saque em conta.
+<div align="center">
+  <img src="Assets/deposito-saque.gif" alt="Depósito e saque" style="height:300px; width:auto;" />
+  <p><em>Legenda: Exemplo de depósito e saque em conta.</em></p>
+</div>
 
-![Transferência](Assets/transferencia.gif)
-*Legenda:* Transferência entre contas (fluxo atômico).
+<div align="center">
+  <img src="Assets/transferencia.gif" alt="Transferência" style="height:300px; width:auto;" />
+  <p><em>Legenda: Transferência entre contas (fluxo atômico).</em></p>
+</div>
 
-![Rotas protegidas](Assets/rotas-protegidas.gif)
-*Legenda:* Acesso a endpoints protegidos com JWT.
+<div align="center">
+  <img src="Assets/rotas-protegidas.gif" alt="Rotas protegidas" style="height:300px; width:auto;" />
+  <p><em>Legenda: Acesso a endpoints protegidos com JWT.</em></p>
+</div>
 
-<img src="Assets/SP-STUDIO%20SOUTH%20PARK%20-%20DIN%C3%82MICA%20EM%20GRUPO%20-%20DAVID%20OLIVEIRA%20SILVA.png" alt="Dinâmica em grupo" width="600" />
-*Legenda:* Foto da dinâmica em grupo (arquivo com espaços no nome).
-
-> Observação: arquivos com espaços ou caracteres especiais podem exigir codificação na URL. Recomenda-se renomear os arquivos para nomes simples (ex.: `dinamica-grupo.png`) para evitar problemas; se quiser, eu posso renomear os arquivos e atualizar as referências.
+<div align="center">
+  <img src="Assets/SP-STUDIO%20SOUTH%20PARK%20-%20DIN%C3%82MICA%20EM%20GRUPO%20-%20DAVID%20OLIVEIRA%20SILVA.png" alt="Dinâmica em grupo" width="600" />
+  <p><em>Legenda: Foto da dinâmica em grupo com South Park.</em></p>
+</div>
 
 ## 🧩 Particularidades
 
