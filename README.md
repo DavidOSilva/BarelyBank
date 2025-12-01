@@ -27,10 +27,25 @@ Desenvolver um sistema de simulação de banco digital que gerencia clientes e s
 
 ## 🖼️ Imagens e Figuras
 
-<!-- Coloque imagens relevantes na pasta `docs/images/` e referencie aqui. Exemplos: -->
+![Criando cliente](Assets/criando-cliente.gif)
+*Legenda:* Fluxo de criação de cliente.
 
-<!-- ![Resultados dos Testes](docs/images/test-results.png) -->
-<!-- ![Cobertura de Código](docs/images/coverage.png) -->
+![Criando conta](Assets/criando-conta.gif)
+*Legenda:* Processo de abertura de conta vinculada a um cliente.
+
+![Depósito e saque](Assets/deposito-saque.gif)
+*Legenda:* Exemplo de depósito e saque em conta.
+
+![Transferência](Assets/transferencia.gif)
+*Legenda:* Transferência entre contas (fluxo atômico).
+
+![Rotas protegidas](Assets/rotas-protegidas.gif)
+*Legenda:* Acesso a endpoints protegidos com JWT.
+
+<img src="Assets/SP-STUDIO%20SOUTH%20PARK%20-%20DIN%C3%82MICA%20EM%20GRUPO%20-%20DAVID%20OLIVEIRA%20SILVA.png" alt="Dinâmica em grupo" width="600" />
+*Legenda:* Foto da dinâmica em grupo (arquivo com espaços no nome).
+
+> Observação: arquivos com espaços ou caracteres especiais podem exigir codificação na URL. Recomenda-se renomear os arquivos para nomes simples (ex.: `dinamica-grupo.png`) para evitar problemas; se quiser, eu posso renomear os arquivos e atualizar as referências.
 
 ## 🧩 Particularidades
 
@@ -48,7 +63,7 @@ Este projeto incorpora vários padrões de projeto e boas práticas para garanti
 
 - **Testes Unitários**: Cobrem as camadas Application (ex.: `AccountServiceTest`, `ClientServiceTest` etc. ) e Domain (ex.: `AccountTest`, `AccountFactoryTest`, `PasswordValidatorTest`). Os testes de Application isolam serviços com Moq e validam fluxos de sucesso e falha (criação via factories, depósitos/saques que criam Transaction, transferências atômicas), confirmam interações com repositórios e que `CompleteAsync()` só é chamado em sucesso, enquanto os testes de Domain verificam invariantes de negócio (deposit/withdraw, fees, criação correta de contas e validação de senhas).
 
-- **Repositórios genéricos e específicos**: A camada de infra usa um repositório base genérico `EntityRepository<T>` que encapsula operações CRUD reutilizáveis (Add/Update/Delete/Get/GetAll) via `BBContext` e `Context.Set<T>()`, expondo contratos por meio de `IEntityRepository<T>` e especializações como `IAccountRepository`. O `AccountRepository` amplia o comportamento com consultas específicas (eager loading do holder, busca por clientId e cálculo do último número de conta), mantendo o acesso a dados centralizado, facilitando mocks nos testes e permitindo otimizações por entidade sem duplicar lógica. Segundo, no domínio bancário, transações são imutáveis: você praticamente só adiciona novas (Add) e lê com filtros — nunca atualiza ou deleta —, o que torna métodos genéricos como Update ou Delete desnecessários para esse caso; isso reforça a decisão de ter repositórios dedicados e simples que expõem apenas o que o negócio precisa.
+- **Repositórios genéricos e específicos**: A camada de infraestrutura utiliza um repositório base genérico `EntityRepository<T>`, que centraliza operações CRUD reutilizáveis (Add, Update, Delete, Get, GetAll) via `BBContext` e `Context.Set<T>()`. Isso evita duplicação de código e garante consistência ao definir contratos por meio de `IEntityRepository<T>` e suas especializações, como `IAccountRepository`. Para entidades imutáveis como `Transaction`, métodos genéricos como Update ou Delete são desnecessários, justificando a implementação de `TransactionRepository` de forma dedicada e customizada.
 
 ## 🗄️ Configuração do Banco de Dados
 
