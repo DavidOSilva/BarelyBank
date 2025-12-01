@@ -3,31 +3,36 @@
 O BarelyBank é um sistema de simulação de banco digital desenvolvido para demonstrar conceitos-chave de Programação Orientada a Objetos, modelagem de dados e arquitetura de software moderna. O sistema gerencia clientes e suas contas bancárias, processa operações financeiras e mantém um registro imutável de todas as transações.
 
 ## Tabela de Conteúdos
-- [Objetivo](#objetivo)
-- [Funcionalidades Principais](#funcionalidades-principais)
-- [Destaques da Arquitetura](#destaques-da-arquitetura)
-- [Configuração do Banco de Dados](#configuração-do-banco-de-dados)
-- [Instalação](#instalação)
-- [Executando a Aplicação](#executando-a-aplicação)
-- [Imagens e Figuras](#imagens-e-figuras)
-- [Testes](#testes)
+- [🎯 Objetivo](#objetivo)
+- [✨ Funcionalidades Principais](#funcionalidades-principais)
+- [🖼️ Imagens e Figuras](#imagens-e-figuras)
+- [🧩 Particularidades](#particularidades)
+- [🗄️ Configuração do Banco de Dados](#configuração-do-banco-de-dados)
+- [🚀 Instalação e Execução](#instalação-e-execução)
 
-## Objetivo
+## 🎯 Objetivo
 
 Desenvolver um sistema de simulação de banco digital que gerencia clientes e suas contas, realiza operações financeiras e mantém um registro imutável de todas as transações, demonstrando um sólido domínio dos conceitos de POO e modelagem de dados.
 
-## Funcionalidades Principais
+## ✨ Funcionalidades Principais
 
-- **Gerenciamento de Clientes**: Registra novos clientes com CPF único.
-- **Gerenciamento de Contas**: Abre contas correntes ou poupança para clientes existentes.
-- **Operações Financeiras**:
-  - **Depósito**: Adiciona fundos a uma conta.
-  - **Saque**: Retira fundos, com validação de saldo suficiente.
-  - **Transferência**: Transfere fundos entre duas contas de forma atômica.
-- **Consultas**: Recupera todas as contas de um cliente ou exibe um extrato detalhado de transações para uma conta específica.
-- **Autenticação**: Protege endpoints usando JWT, exigindo que os clientes façam login com suas credenciais registradas.
+- 👤 **Gerenciamento de Clientes**: Cadastro de clientes com CPF único e validação de dados.
+- 🏦 **Gerenciamento de Contas**: Abertura de contas correntes e poupança vinculadas a clientes existentes.
+- 💸 **Operações Financeiras**:
+  - ➕ **Depósito**: Credita valores em uma conta.
+  - ➖ **Saque**: Debita valores de uma conta, com validação de saldo disponível.
+  - 🔁 **Transferência**: Move fundos entre contas de forma atômica e transacional.
+- 🔍 **Consultas**: Recupera todas as contas de um cliente e exibe extratos detalhados com histórico de transações.
+- 🔐 **Autenticação**: Protege endpoints usando JWT; clientes se registram e fazem login para obter tokens. Senhas são armazenadas de forma segura (hash + salt).
 
-## Destaques da Arquitetura
+## 🖼️ Imagens e Figuras
+
+<!-- Coloque imagens relevantes na pasta `docs/images/` e referencie aqui. Exemplos: -->
+
+<!-- ![Resultados dos Testes](docs/images/test-results.png) -->
+<!-- ![Cobertura de Código](docs/images/coverage.png) -->
+
+## 🧩 Particularidades
 
 Este projeto incorpora vários padrões de projeto e boas práticas para garantir uma arquitetura robusta, escalável e de fácil manutenção.
 
@@ -41,7 +46,7 @@ Este projeto incorpora vários padrões de projeto e boas práticas para garanti
 
 - **Autenticação com JWT**: Endpoints selecionados são protegidos para ilustrar conceitos de autenticação. Basicamente toda a ClientController exige autenticação para funcionar apropriadamente. Os clientes devem se registrar e depois fazer login para obter um JWT. Este token deve ser incluído no cabeçalho de autorização para acessar recursos protegidos. Evidentemente, as senhas são armazenadas de forma segura usando um algoritmo de hash. Diferentemente da criptografia, uma senha hasheada não pode ser revertida para seu valor original; além disso, utiliza-se normalmente um salt (um valor aleatório adicionado à senha antes do hash) para impedir ataques com tabelas pré-computadas e garantir que senhas iguais gerem hashes distintos.
 
-## Configuração do Banco de Dados
+## 🗄️ Configuração do Banco de Dados
 
 A aplicação utiliza o **SQL Server** como banco de dados. A maneira recomendada de executá-lo para desenvolvimento local é através de um contêiner Docker.
 
@@ -64,18 +69,23 @@ A aplicação utiliza o **SQL Server** como banco de dados. A maneira recomendad
     }
     ```
 
-## Instalação
+## 🚀 Instalação e Execução
 
 1.  **Clonar o Repositório**:
-    ```sh
+    ```ps1
     git clone <url-do-seu-repositorio>
     cd <diretorio-do-projeto>
     ```
 
-2.  **Aplicar Migrações do Entity Framework**:
-    Assim que o contêiner do banco de dados estiver em execução, execute os comandos a seguir a partir do diretório raiz para criar o esquema do banco de dados.
+2.  **Iniciar o banco de dados (Docker)**
 
-    ```sh
+    Certifique-se de executar o contêiner do SQL Server (veja a seção "Configuração do Banco de Dados" para o comando de exemplo) antes de aplicar as migrações.
+
+3.  **Aplicar Migrações do Entity Framework**:
+
+    Execute os comandos a seguir a partir do diretório raiz para criar o esquema do banco de dados.
+
+    ```ps1
     # Crie uma nova migração se tiver alterações no modelo
     dotnet ef migrations add InitialCreate --project BarelyBank.Infra --startup-project BarelyBank
 
@@ -83,27 +93,14 @@ A aplicação utiliza o **SQL Server** como banco de dados. A maneira recomendad
     dotnet ef database update --project BarelyBank.Infra --startup-project BarelyBank
     ```
 
-## Executando a Aplicação
+4.  **Executar a API**:
 
-Para executar a API, navegue até a pasta do projeto `BarelyBank` e execute o comando `dotnet run`.
- ```sh
-cd BarelyBank
-dotnet run
- ```
+    Navegue até a pasta do projeto `BarelyBank` e execute:
 
-Assim a API será iniciada e você poderá acessar a interface do Swagger em `https://localhost:<porta>/swagger/index.html` para explorar e interagir com os endpoints.
+    ```ps1
+    cd BarelyBank; dotnet run
+    ```
 
-## Imagens
+    A API será iniciada e você poderá acessar a interface do Swagger em `https://localhost:<porta>/swagger/index.html` para explorar e interagir com os endpoints.
 
-<!-- Exemplo de como adicionar uma imagem: -->
-<!-- ![Descrição da Imagem](caminho/para/sua/imagem.png) -->
-
-<!-- Exemplo de resultado dos testes: -->
-<!-- ![Resultados dos Testes](caminho/para/imagem-testes.png) -->
-
-<!-- Exemplo de cobertura de código: -->
-<!-- ![Cobertura de Código](caminho/para/imagem-cobertura.png) -->
-
-## Testes
-
-O projeto inclui um conjunto de testes unitários, focados principalmente nas camadas de aplicação e domínio, para garantir a correção da lógica de negócio. Você pode executar esses testes usando o Gerenciador de Testes do Visual Studio ou a linha de comando:
+<!-- Seções detalhadas de testes foram removidas do README; coloque instruções de testes em um arquivo `TESTS.md` se desejar. -->
